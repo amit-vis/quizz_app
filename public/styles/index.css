@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.start-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start-test-btn{
+    padding: 2rem;
+    font-size: 1.3rem;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.start-test-btn a{
+    text-decoration: none;
+    color: rgb(58, 143, 119);
+}
+.form-container{
+    width: 100%;
+}
+.child-form-container{
+    background-color: rgb(165, 220, 54);
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: justify;
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transition: .5s ease-in-out;
+}
+.child-form-container input[type="radio"]{
+    transform: scale(1.5);
+}
+
+.child-form-container:hover{
+    transform: translateY(-10px);
+}
+
+.submit-btn{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+    margin-top: 2rem;
+    background-color: skyblue;
+    border-radius: 10px;
+    color: rgb(11, 65, 173);
+    font-family: monospace;
+    position: relative;
+    left: 25%;
+    border: 2px solid rgb(0, 255, 55);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+
+.submit-btn:hover{
+    transform: translateY(-10px);
+}
+
+.timer-score-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.change-btn{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    color: skyblue;
+    font-family: monospace;
+    border: 2px solid rgb(0, 255, 55);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: .8s;
+}
+
+.change-btn:hover{
+    transform: translateX(10px);
+}
+
+.notification-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: 700;
+}

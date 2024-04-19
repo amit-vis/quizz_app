@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="start-container" id="start-btn-cont">
+        <button class="start-test-btn" id="start-btn">
+                start Test
+        </button>
+    </div>
+    <div class="form-container">
+        <div class="timer-score-container">
+            <span>score: <span id="display-score">0</span></span>
+        </div>
+        <div class="child-form-container" id="child-form-container">
+        <form method="post" action="/answer" id="form">
+            
+        <button type="submit" class="submit-btn" id="submit-answer">submit answer</button>
+        </form>
+    </div>
+    <div class="button-container">
+        <button class="change-btn" id="prev-question">previous</button>
+        <button class="change-btn" id="next-question">next</button>
+    </div>
+    </div>
+    <div class="notification-container" id="notification-container">
+        
+    </div>
+    <script src="js/quizz.js"></script>
+</body>
+</html>
