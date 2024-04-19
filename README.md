@@ -13,9 +13,9 @@ link:- https://collegedunia-table-i5x05h8bn-amitvis-projects.vercel.app/
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/amit-vis/collegeduniaTable.git
+  git clone https://github.com/amit-vis/quizz_app.git
   npm install
-  cd collegeduniaTable
+  cd quizz_app
 ```
     
 ## Running Tests
