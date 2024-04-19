@@ -6,7 +6,7 @@ This project allows students to test their knowledge of Node.js.
 
 ## Live Link
 
-link:- https://collegedunia-table-i5x05h8bn-amitvis-projects.vercel.app/
+link:- https://quizz-app-yzju.onrender.com/
 
 ## Installation
 
